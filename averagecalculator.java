@@ -21,7 +21,7 @@ class AverageCalculator {
 
         double num3 = scanner.nextDouble(); // Read and store the third number
 
-        // as the user for the fourth number
+        // ask the user for the fourth number
         System.out.print("Enter the fourth number: ");
 
         double num4 = scanner.nextDouble(); // Read and store the fourth number
@@ -35,4 +35,5 @@ class AverageCalculator {
         // Output the result to two decimal places
         System.out.printf("The average of the four numbers is: %.2f%n", average);
     }
+
 }
